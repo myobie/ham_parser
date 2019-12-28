@@ -19,3 +19,10 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/ham_parser](https://hexdocs.pm/ham_parser).
 
+## How to test
+
+In `iex`:
+
+```
+> :leex.file('src/lexer.xrl'); c("src/lexer.erl"); :lexer.string('Hello *hot* dog\n\nyo  yo\n')
+```
